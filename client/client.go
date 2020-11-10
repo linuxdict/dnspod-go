@@ -13,6 +13,7 @@ import (
 	"sync"
 
 	"github.com/google/go-querystring/query"
+	log "github.com/sirupsen/logrus"
 )
 
 const (
