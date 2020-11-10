@@ -59,13 +59,13 @@ func (c *Client) do(method string, action string, params interface{}, result int
 	apiURL := fmt.Sprintf("%s%s", DNSPodAPIBaseURL, action)
 	baseURL, err := url.Parse(apiURL)
 	if err != nil {
-		log.Debug("baseURL parse error: %s", err)
+		logger.Debug("baseURL parse error: %s", err)
 		return err
 	}
 	logger.Debug("baseURL: %s", baseURL)
 	opts, err := query.Values(params)
 	if err != nil {
-		log.Debug("build query values error: %s", err)
+		logger.Debug("build query values error: %s", err)
 		return err
 	}
 	logger.Debug("request parammeters: %s", opts.Encode())
