@@ -26,7 +26,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 )
 
 var instance *logrus.Logger
