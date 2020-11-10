@@ -13,6 +13,7 @@ import (
 	"sync"
 
 	"github.com/google/go-querystring/query"
+	"github.com/linuxdict/dnspod-go/logger"
 )
 
 const (
