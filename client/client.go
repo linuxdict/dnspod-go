@@ -12,9 +12,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/CuriosityChina/dnspod-go/logger"
 	"github.com/google/go-querystring/query"
-	"github.com/qiniu/log"
 )
 
 const (

@@ -1,7 +1,7 @@
 package service
 
 import (
-	"github.com/CuriosityChina/dnspod-go/client"
+	"github.com/linuxdict/dnspod-go/client"
 )
 
 // RecordService dnspod record service
